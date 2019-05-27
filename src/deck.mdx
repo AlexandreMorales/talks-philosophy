@@ -1,0 +1,159 @@
+import { book } from 'mdx-deck/themes'
+import { Appear } from 'mdx-deck'
+import Image from './components/Image'
+
+export const theme = {
+  ...book
+}
+
+
+# Functional Programming
+Leco & Xandinho
+
+---
+
+# When?
+<Appear>    
+  <p>Lisp</p>
+  <p>Late 1950s by John McCarthy</p>
+</Appear>    
+
+---
+
+## <Image src='./assets/tell_me_why.jpg' width='50vw' />
+
+---
+
+# Idempotence
+#### Can be applied multiple times without changing the result.
+
+<Appear>
+  <p>Async</p>
+  <p>Static Methods</p>
+</Appear>
+
+---
+
+# Immutability
+#### Object whose state cannot be modified after it is created.
+##### Variables That Don’t Vary
+
+<Appear>
+  <p>Single Responsability</p>
+  <p>Timing and order of function calls do not impact the result</p>  
+  <p>Async</p>
+</Appear>
+
+---
+
+# Expressiveness
+#### Easy to understand, both for the compiler and for a human reader.
+
+<Appear>
+  <p>Single Responsability</p>
+</Appear>
+
+---
+
+# Expressions
+#### Pieces of code that evaluate and return a value.
+
+<Appear>
+  <p>Recursiveness</p>
+  <p>Expressiveness</p>
+</Appear>
+
+---
+
+## <Image src='./assets/lincon.png' width='12vw' />
+
+## "Talk is cheap. Show me the code."
+### -Bob Marley
+
+---
+
+# High Order Function
+#### Functions that operate on other functions, either by taking them as arguments or by returning them.
+
+---
+
+## <Image src='./assets/thales_positivo.jpg' width='12vw' />
+
+## "Eu achei esse aqui mais fácil de ler."
+### -Thales
+
+---
+
+# Pure Function
+#### Given the same input, will always return the same output and produces no side effects.
+
+<Appear>    
+  <p>Idempotence</p>
+  <p>Immutability</p>
+</Appear>
+
+---
+
+<div>
+  <h1 style={{color: 'red'}}>!DISCLAIMER!</h1>
+</div>
+
+<Appear>    
+  <p>Parts of your code need to be impure</p>
+  <p>Limit and keep it separate from all the rest</p>
+</Appear>
+
+---
+
+# Closure
+#### The combination of a function and the lexical environment within which that function was declared.
+
+---
+
+# Currying
+#### The process of taking a function with multiple arguments and returning a series of functions that take one argument and eventually resolve to a value.
+
+<Appear>    
+  <p>Chained Closure</p>
+</Appear>
+
+---
+
+# Monad
+#### Wrap types giving them additional behavior like the automatic propagation of empty value or simplifying asynchronous code.
+
+<Appear>    
+  <p>Maybe</p>
+  <p>Either</p>
+  <p>List</p>
+</Appear>
+
+---
+
+# Functor
+#### A container which can be mapped upon by a Unary function.
+
+<Appear>    
+  <p>All Lists</p>
+  <p>Functions (Closure)</p>
+</Appear>
+
+---
+
+## <Image src='./assets/question.png' width='20vw' />
+
+# Questions?
+
+---
+
+# Reading
+
+<ul>
+  <li style={{'text-align': 'left'}}>https://github.com/MostlyAdequate/mostly-adequate-guide</li>
+  <li style={{'text-align': 'left'}}>https://github.com/getify/You-Dont-Know-JS</li>
+  <li style={{'text-align': 'left'}}>https://github.com/getify/Functional-Light-JS</li>
+</ul>
+
+---
+
+## <Image src='./assets/byebyebye.gif' width='50vw' />
